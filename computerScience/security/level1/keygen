@@ -1,0 +1,19 @@
+#!/bin/python
+
+import sys
+import random
+
+if len(sys.argv) != 2:
+    print "Ussage: " + sys.argv[0] + " file"
+    sys.exit(1)
+
+filept = open(sys.argv[1], "r").read()
+cnt = len(filept) - 1
+#filept.close()
+
+keypt = open(sys.argv[1] + ".key", "w")
+
+#print cnt
+
+for i in xrange(0, cnt+1):
+    keypt.write("%c" % random.randrange(33, 125))

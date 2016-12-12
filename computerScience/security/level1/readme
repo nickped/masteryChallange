@@ -1,0 +1,26 @@
+This program is created to satify level 1 of the security portion for the mastery challenge.
+
+This program impliments a XOR cipher to encode a file and outputs the result via standard out.
+
+To us:
+	Compile by typing 'make'
+	
+	Create a key file by either using the included keyGen or your own key generation program
+
+	Type 'cipher keyFile contentFile' to encode and decode the content File
+
+Sample encoding:
+	Original content:
+		This is a dog freindly space.
+		Dogs haters are banned from here
+			along with cat lovers.
+
+	Encoded content:
+		«—–Œß–Œßß›˜ß™š–‘›“†ßŒœšÑ
+		»˜Œß—‹šŒßšß‘‘š›ß™’ß—šš
+		ö“‘˜ßˆ–‹—ßœ‹ß“‰šŒÑ
+
+	Recovered content:
+		This is a dog freindly space.
+		Dogs haters are banned from here
+			along with cat lovers.
