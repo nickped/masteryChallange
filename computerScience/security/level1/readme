@@ -5,9 +5,7 @@ This program impliments a XOR cipher to encode a file and outputs the result via
 To us:
 	Compile by typing 'make'
 	
-	Create a key file by either using the included keyGen or your own key generation program
-
-	Type 'cipher keyFile contentFile' to encode and decode the content File
+	Type 'cipher File' to encode and decode the File
 
 Sample encoding:
 	Original content:
