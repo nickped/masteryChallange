@@ -1,0 +1,15 @@
+This program is created to satify level 1 of the c++ portion for the mastery challenge.
+
+The output of the program is:
+	Before child changes variables:
+	a = 1
+	b = 2
+	c = 3
+	Child changes protected variable (b) to -1:
+	a = 1
+	b = -1
+	c = 3
+	Child changes private variable (a) to -1:
+	a = -1
+	b = -1
+	c = 3

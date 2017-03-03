@@ -64,7 +64,7 @@ class child:parent{
 
       //Prints out parent variables after changing private variable A to input
       void changePrivate(int a){
-	 cout <<"Child changes protected variable (a) to " <<a <<":\n";
+	 cout <<"Child changes private variable (a) to " <<a <<":\n";
 	 varA(a); //using setter for A
 	 printVar(); //printing variables
       }
